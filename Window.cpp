@@ -49,7 +49,7 @@ istream& operator>> (istream& in, Window &w)
 {
     in >> w.owner;
     in >> w.title;
-    in >> w.title;
+    in >> w.color;
     return in;
 }
 
