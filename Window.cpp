@@ -21,22 +21,22 @@ bool Window::operator==(const Window &w) {
             color == w.color);
 }
 
-bool const Window::operator!=(const Window &w) {
+bool Window::operator!=(const Window &w) {
         return !(*this == w);
 }
-bool const Window::operator<(const Window &w) {
+bool Window::operator<(const Window &w) {
         return (title < w.title);
 }
 
-bool const Window::operator>(const Window &w) {
+bool Window::operator>(const Window &w) {
         return (title > w.title);
 }
 
-bool const Window::operator>=(const Window &w) {
+bool Window::operator>=(const Window &w) {
         return (title >= w.title);
 }
 
-bool const Window::operator<=(const Window &w) {
+bool Window::operator<=(const Window &w) {
         return (title <= w.title);
 }
 ostream& operator<< (ostream& os, const Window &w)
