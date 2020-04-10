@@ -6,7 +6,7 @@ using namespace std;
 
     Window::Window() : owner("none"), title("none"), color("none") {}
 
-    void const Window::print(){
+    void Window::print(){
     cout << "(" << owner << ", " << title << ", " << color << ")\n";}
 
     Window& Window::operator=(const string &a) {
