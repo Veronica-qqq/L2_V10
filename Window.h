@@ -12,11 +12,11 @@ public:
     void print();
     Window& operator= (const string &a);
     bool operator==(const Window &w);
-    bool const operator!=(const Window &w);
-    bool const operator<(const Window &w);
-    bool const operator> (const Window &w);
-    bool const operator>=(const Window &w);
-    bool const operator<=(const Window &w);
+    bool operator!=(const Window &w) const;
+    bool operator<(const Window &w) const;
+    bool operator> (const Window &w) const;
+    bool operator>=(const Window &w) const;
+    bool operator<=(const Window &w) const;
     friend ostream& operator<< (ostream& os, const Window &w);
     friend istream& operator>> (istream& in, Window &w);
 
