@@ -11,7 +11,7 @@ public:
     Window();
     void print() const;
     Window& operator= (const string &a);
-    bool operator==(const Window &w);
+    bool operator==(const Window &w) const;
     bool operator!=(const Window &w) const;
     bool operator<(const Window &w) const;
     bool operator> (const Window &w) const;
