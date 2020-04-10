@@ -9,7 +9,7 @@ private:
     string color;
 public:
     Window();
-    void const print();
+    void print();
     Window& operator= (const string &a);
     bool operator==(const Window &w);
     bool const operator!=(const Window &w);
