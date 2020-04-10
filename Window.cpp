@@ -6,7 +6,7 @@ using namespace std;
 
     Window::Window() : owner("none"), title("none"), color("none") {}
 
-    void Window::print(){
+    void const Window::print(){
     cout << "(" << owner << ", " << title << ", " << color << ")\n";}
 
     Window& Window::operator=(const string &a) {
@@ -15,7 +15,7 @@ using namespace std;
     color = a.substr(a.rfind(' '), a.length());
     return *this;
 }
-bool const Window::operator==(const Window &w) {
+bool Window::operator==(const Window &w) {
         return (owner == w.owner &&
             title == w.title &&
             color == w.color);
