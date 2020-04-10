@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1583691887 source:c:\users\Вероника\desktop\лабы\1л\main.cpp
+	<iostream>
+	"Window.h"
+	<cstring>
+
+1584033121 c:\users\Вероника\desktop\лабы\1л\window.h
+
+1584031806 source:c:\users\Вероника\desktop\лабы\1л\window.cpp
+	<iostream>
+	"Window.h"
+	<cstring>
+
+1586274629 source:c:\users\Вероника\desktop\лабы\2л\main.cpp
+	<iostream>
+	"Window.h"
+	<cstring>
+
+1586496519 c:\users\Вероника\desktop\лабы\2л\window.h
+
+1586496519 source:c:\users\Вероника\desktop\лабы\2л\window.cpp
+	<iostream>
+	"Window.h"
+	<cstring>
+
