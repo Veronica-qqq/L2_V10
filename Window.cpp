@@ -15,28 +15,28 @@ using namespace std;
     color = a.substr(a.rfind(' '), a.length());
     return *this;
 }
-bool Window::operator==(const Window &w) {
+bool const Window::operator==(const Window &w) {
         return (owner == w.owner &&
             title == w.title &&
             color == w.color);
 }
 
-bool Window::operator!=(const Window &w) {
+bool const Window::operator!=(const Window &w) {
         return !(*this == w);
 }
-bool Window::operator<(const Window &w) {
+bool const Window::operator<(const Window &w) {
         return (title < w.title);
 }
 
-bool Window::operator>(const Window &w) {
+bool const Window::operator>(const Window &w) {
         return (title > w.title);
 }
 
-bool Window::operator>=(const Window &w) {
+bool const Window::operator>=(const Window &w) {
         return (title >= w.title);
 }
 
-bool Window::operator<=(const Window &w) {
+bool const Window::operator<=(const Window &w) {
         return (title <= w.title);
 }
 ostream& operator<< (ostream& os, const Window &w)
